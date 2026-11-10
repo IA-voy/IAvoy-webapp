@@ -1,0 +1,6 @@
+{
+  "id": "example-slugify",
+  "prompt": "Implement slugify in textutils.py: lowercase, strip accents, replace any run of non-alphanumeric characters with a single hyphen, and trim hyphens at both ends.",
+  "test_cmd": "python -m pytest -q",
+  "tags": ["control", "python"]
+}

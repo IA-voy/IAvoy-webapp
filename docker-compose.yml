@@ -1,0 +1,10 @@
+# Bifrost corriendo en local. Las claves de los proveedores se cargan desde su UI (http://localhost:8080).
+# P2: confirmar imagen, puerto y volumen contra la documentación actual de Bifrost.
+services:
+  bifrost:
+    image: maximhq/bifrost
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./bifrost-data:/app/data
+    restart: unless-stopped
